@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frederick's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
+    <script>
+        AOS.init();
+    </script>
+    
     <!-- Navbar -->
-    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center fixed w-full top-0 z-50">
         <h1 class="text-xl font-bold">Frederick's Portfolio</h1>
         <ul class="flex space-x-4">
             <li><a href="#about" class="hover:text-blue-600">About</a></li>
@@ -18,30 +30,34 @@
     </nav>
     
     <!-- Hero Section -->
-    <header class="text-center py-20 bg-blue-600 text-white">
-        <h2 class="text-4xl font-bold">Hi, I'm Frederick</h2>
-        <p class="text-lg mt-4">Networking | IT Support | Web Development | Data Analysis</p>
+    <header class="text-center py-40 bg-blue-600 text-white flex flex-col items-center justify-center" data-aos="fade-up">
+        <img src="your-profile-image.jpg" alt="Frederick" class="w-32 h-32 rounded-full shadow-lg mb-4 animate__animated animate__fadeInDown">
+        <h2 class="text-5xl font-bold animate__animated animate__fadeInUp">Hi, I'm Frederick</h2>
+        <p class="text-lg mt-4 animate__animated animate__fadeInUp">Networking | IT Support | Web Development | Data Analysis</p>
     </header>
     
     <!-- About Section -->
-    <section id="about" class="p-10 text-center">
+    <section id="about" class="p-16 text-center bg-white" data-aos="fade-right">
         <h3 class="text-3xl font-semibold">About Me</h3>
         <p class="mt-4 max-w-2xl mx-auto">I specialize in networking, IT support, web development, and data analysis. Passionate about solving problems with technology.</p>
     </section>
     
     <!-- Projects Section -->
-    <section id="projects" class="p-10 bg-gray-200">
+    <section id="projects" class="p-16 bg-gray-200" data-aos="fade-up">
         <h3 class="text-3xl font-semibold text-center">Projects</h3>
         <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white p-4 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in">
+                <img src="network-project.jpg" alt="Network Project" class="w-full h-40 object-cover rounded-md mb-4">
                 <h4 class="text-xl font-bold">Network Project</h4>
                 <p>Designed and implemented a modern network infrastructure for St. Mary's Sports Academy.</p>
             </div>
-            <div class="bg-white p-4 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in">
+                <img src="recommendation-system.jpg" alt="Recommendation System" class="w-full h-40 object-cover rounded-md mb-4">
                 <h4 class="text-xl font-bold">Personalized Recommendation System</h4>
                 <p>A system that suggests books, music, and games based on user preferences.</p>
             </div>
-            <div class="bg-white p-4 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in">
+                <img src="church-app.jpg" alt="Church App" class="w-full h-40 object-cover rounded-md mb-4">
                 <h4 class="text-xl font-bold">Church App</h4>
                 <p>Developed an app to manage church activities and member engagement.</p>
             </div>
@@ -49,11 +65,15 @@
     </section>
     
     <!-- Contact Section -->
-    <section id="contact" class="p-10 text-center">
+    <section id="contact" class="p-16 text-center bg-white" data-aos="fade-left">
         <h3 class="text-3xl font-semibold">Contact Me</h3>
         <p class="mt-4">Email: your.email@example.com</p>
         <p>LinkedIn: <a href="#" class="text-blue-600">linkedin.com/in/yourprofile</a></p>
         <p>GitHub: <a href="#" class="text-blue-600">github.com/yourusername</a></p>
     </section>
+    
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
