@@ -27,7 +27,6 @@ This is my personal portfolio website — a digital space where I showcase who I
 
 ## 📸 Screenshots
 
-> Add your screenshots to an `assets/` folder in your repo and update the paths below.
 
 | Home / Hero Section | Projects Section | Contact Section |
 |---|---|---|
