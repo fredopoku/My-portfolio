@@ -52,7 +52,7 @@ My-portfolio/
 │   ├── index.html       # Main portfolio page
 │   ├── style.css        # Stylesheet
 │   └── script.js        # JavaScript interactions
-└── README.md
+│   └── README.md
 ```
 
 ---
