@@ -74,17 +74,6 @@ Or simply double-click `index.html` to view it locally.
 
 ---
 
-## 🔗 Live Demo
-
-> *Coming soon — deploy via GitHub Pages for a live link!*
-
-To deploy on GitHub Pages:
-1. Go to **Settings** → **Pages**
-2. Set the source branch to `main` and folder to `/Files`
-3. Your portfolio will be live at `https://fredopoku.github.io/My-portfolio`
-
----
-
 ## 🤝 Contributing
 
 Have suggestions to improve the portfolio? Feel free to open an issue or submit a pull request.
