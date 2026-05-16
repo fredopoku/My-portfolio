@@ -1,90 +1,126 @@
-# 🌐 My Portfolio — Personal Portfolio Website
+# Frederick Opoku Afriyie — Personal Portfolio
 
-> A simple and clean personal portfolio website showcasing my skills, projects, and experience.
+[![Live Site](https://img.shields.io/badge/Live-frederick--opoku--afriyie.netlify.app-00897b?style=flat)](https://frederick-opoku-afriyie.netlify.app/)
+[![HTML](https://img.shields.io/badge/HTML5-96%25-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS3-Custom-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JS](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://netlify.com)
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-
----
-
-## 📌 Overview
-
-This is my personal portfolio website — a digital space where I showcase who I am, what I do, and the projects I've built. Designed and developed from scratch using HTML, CSS, and JavaScript, it serves as my online presence for potential employers, collaborators, and the wider developer community.
+> Personal portfolio of Frederick Opoku Afriyie — MSc Computer Science · Software Engineer & AI Researcher · Co-Founder, Vision'97
 
 ---
 
-## ✨ Features
+## Live Site
 
-- 👤 **About Me** — Introduction to my background, interests, and goals
-- 🛠️ **Skills** — Overview of my technical skills and tools
-- 💼 **Projects** — Showcases of my key projects with descriptions and links
-- 📬 **Contact** — Easy way for visitors to get in touch
-- 📱 Responsive design — works across desktop and mobile devices
+**[frederick-opoku-afriyie.netlify.app](https://frederick-opoku-afriyie.netlify.app/)**
 
 ---
 
-## 📸 Screenshots
+## About This Repository
 
+This is the source code for my personal portfolio — a single-page application built from scratch with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, no dependencies. Every interaction — the custom cursor, dark mode, animated ticker, collapsible case studies, and reveal effects — is hand-written.
 
-| Home / Hero Section | Projects Section | Contact Section |
+The site serves as my primary online presence for potential employers, collaborators, and clients across software engineering, AI research, and data analytics roles.
+
+---
+
+## Sections
+
+| # | Section | Description |
 |---|---|---|
-| ![Home](assets/hero.png) | ![Projects](assets/projects.png) | ![Contact](assets/contact.png) |
+| 01 | About | Background, approach, and what I'm currently focused on |
+| 02 | Skills | Technical capabilities across languages, tools, and platforms |
+| 03 | Experience | Professional and freelance work history |
+| 04 | Projects | Featured and full project showcase with live links and case studies |
+| 05 | Research | Active research and academic publications |
+| 05b | Live Work | Embedded demos of deployed applications |
+| 06 | Education | Academic qualifications |
+| 07 | Currently Building | What's in progress right now |
+| 08 | GitHub | Open source activity overview |
+| 09 | Testimonials | Client and collaborator feedback |
+| 10 | Writing | Notes, thinking, and blog-style posts |
+| 11 | Contact | Get in touch |
 
 ---
 
-## 🛠️ Tech Stack
+## Projects Showcased
 
-| Category | Tool |
+### Featured
+
+**Chrispo E.P.O Ltd — Hotel Web System** `Full-Stack · Freelance · Live`
+End-to-end hotel management system: customer booking platform, staff backend, admin dashboard with live analytics, receipt generation, and full deployment.
+→ [chrispoestate.com](https://chrispoestate.com/)
+
+**Chrispo E.P.O LTD — Real Estate & Pricing Analytics** `Data · Analytics · Consulting · Live`
+Full data analysis engagement — EDA in Python, pricing strategy, Power BI & Tableau dashboards, and a live Plotly Dash app. Delivered +290% revenue uplift for the client.
+→ [Live App](https://chrispo-real-estate-analytics.onrender.com/) · [Tableau](https://public.tableau.com/app/profile/frederick.opoku.afriyie6847/viz/ChrispoEPOLTDRealEstateAnalytics) · [Power BI](https://app.powerbi.com/reportEmbed?reportId=e14e77e1-f15d-4fce-b43a-9b625758b448&autoAuth=true&ctid=00449dde-2c61-47fa-81ef-e0761befef8d) · [GitHub](https://github.com/fredopoku/chrispo-real-estate-analytics)
+
+---
+
+### Other Projects
+
+| Project | Type | Stack | Status |
+|---|---|---|---|
+| Kleenx Fumigation & Cleaning Services | Frontend · Freelance | HTML/CSS/JS, Responsive Design | Live |
+| GestureKey — AI Sign Language Recognition | AI · Computer Vision | Python, scikit-learn, CV | In Progress |
+| AI Recommendation Engine | University · AI/ML | Python, scikit-learn, REST API | Complete |
+| Church Community Platform | University · Mobile | React Native, Firebase | Complete |
+| E-Learning Platform | University · Web | HTML/CSS/JS, Node.js, MongoDB | Complete |
+| St Mary's Sports Academy — Network Infrastructure | University · Networks | Cisco, VLAN, Network Security | Complete |
+
+---
+
+## Tech Stack
+
+| Category | Detail |
 |---|---|
-| Structure | HTML5 — 96% |
-| Styling | CSS3 — 3.5% |
-| Interactivity | JavaScript — 0.5% |
+| Structure | HTML5 — semantic, accessible markup |
+| Styling | CSS3 — custom properties, grid, flexbox, keyframe animations |
+| Interactivity | Vanilla JavaScript — cursor tracking, dark mode, scroll reveals, case study toggles |
+| Typography | Syne (UI), Instrument Serif (display), JetBrains Mono (metadata) via Google Fonts |
+| Deployment | Netlify — continuous deployment from this repo |
 
 ---
 
-## 📁 Project Structure
+## Screenshots
 
-```
-My-portfolio/
-├── Files/
-│   ├── index.html       # Main portfolio page
-│   ├── style.css        # Stylesheet
-│   └── script.js        # JavaScript interactions
-│   └── README.md
-```
+| Hero | Projects | Contact |
+|---|---|---|
+| ![Hero](assets/hero.png) | ![Projects](assets/projects.png) | ![Contact](assets/contact.png) |
 
 ---
 
-## 🚀 Getting Started
+## Features
 
-No dependencies or build tools required — just open in your browser.
+- **Dark / light mode** — system preference aware, toggle persistent
+- **Custom cursor** — dot and ring tracking, disabled on touch devices
+- **Scroll reveal animations** — progressive content disclosure
+- **Expandable case studies** — collapsible Problem / Approach / Challenge / Outcome for featured projects
+- **Animated ticker** — marquee-style banner with no JavaScript dependency
+- **Fully responsive** — desktop, tablet, and mobile with a hamburger navigation
+- **No frameworks** — zero runtime dependencies, fast load, no hydration cost
+
+---
+
+## Running Locally
+
+No build step required.
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/fredopoku/My-portfolio.git
 cd My-portfolio
-
-# 2. Open in your browser
 open Files/index.html
 ```
 
-Or simply double-click `index.html` to view it locally.
+Or double-click `Files/index.html` directly in your file manager.
 
 ---
 
-## 🤝 Contributing
-
-Have suggestions to improve the portfolio? Feel free to open an issue or submit a pull request.
-
----
-
-## 👤 Author
+## Author
 
 **Frederick Opoku Afriyie**
-GitHub: [@fredopoku](https://github.com/fredopoku)
+MSc Computer Science (Merit) · Software Engineer & AI Researcher · Co-Founder, Vision'97
 
----
-
-*Built with passion and a lot of ☕*
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00897b?style=flat)](https://frederick-opoku-afriyie.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-fredopoku-181717?style=flat&logo=github)](https://github.com/fredopoku)
+[![Email](https://img.shields.io/badge/Email-opokufred32%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:opokufred32@gmail.com)
